@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
+    <link rel="stylesheet" href="{%static "css/news.css"%}">
+ </head>
+  <body>
+    <h1>AZHAR POLITICS NEWS INFORMATION...HEADLINES OF TODAY</h1><hr>
+    <ul>
+      <li>{{news1|upper}}</li>
+      <li>{{news2|upper}}</li>
+      <li>{{news3|title}}</li>
+      <li>{{news4|title}}</li>
+      <li>{{news5|title}}</li>
+      <li>{{news6|title}}</li>
+    </ul>
+    <img src="{%static "images/Parliament.jpg"  %}">
+    <img src="{%static "images/Sonia.jpg"  %}">
+    <img src="{%static "images/Pragya.jpg"  %}">
+    <img src="{%static "images/Owaisi.jpg"  %}">
+    <img src="{%static "images/CatMouse.jpg"  %}">
+    <img src="{%static "images/Modi.jpg"  %}">
+    <img src="{%static "images/Shivsena.jpg"  %}">
+    <img src="{%static "images/Laloo.jpg"  %}">
+    <img src="{%static "images/AmitShah.jpg"  %}">
+    <img src="{%static "images/Yogi.jpg"  %}">
+    <img src="{%static "images/Owaisi.jpg"  %}">
+    <img src="{%static "images/Politics.jpg"  %}">
+  </body>
+</html>
